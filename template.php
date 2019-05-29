@@ -5,7 +5,7 @@
 # http://phphtmltemplate.sourceforge.net/                                      #
 ################################################################################
 # A template system for PHP based on HTML::Template Perl Module                #
-# Version 0.3.4                                                                #
+# Version 0.3.5                                                                #
 # 03-Jun-2019                                                                  #
 # See file README for details                                                  #
 ################################################################################
@@ -60,7 +60,7 @@ class Template {
     var $totalPass    = array(); // Stack for loops: total passes of current loop
     var $curPass      = array(); // Stack for loops: current pass of current loop
 
-    var $version = "0.3.4";
+    var $version = "0.3.5";
 
     // The class constructor
     function Template($options)
@@ -603,6 +603,14 @@ class Template {
         ob_end_clean(); 
         echo("<pre>$b</pre>");
     }
+
+    // Added 'param()' functionality to homogenize with the Perl version's API
+    function param($arg, $value = NULL) {
+	if(func_num_args() == 2)
+		return $this->AddParam($arg, $value);
+	else
+		return $this->AddParam($arg);
+    }
     
     function AddParam($arg, $value=NULL)
     {
@@ -747,7 +755,7 @@ class Template {
             trigger_error("Template::SetValue() : Value must be a scalar", E_USER_ERROR);
         }
     }
-    
+
     function Output()
     {
         // BEGIN DEBUG
