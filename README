@@ -76,8 +76,8 @@ This is a sample PHP script:
 // Include the class file
 require_once("template.php");
 
-// Create a template object. Remember to use =& not only =
-$template =& new Template("sample.tpl");
+// Create a template object.
+$template = new Template("sample.tpl");
 
 // Add values for the template variables
 $template->AddParam("title", "Hello World!");
@@ -106,19 +106,13 @@ The result:
 
 1.3. Creating the template object.
 
-When creating the template object, you must use the =& sign, not the = sign:
-
-WRONG:
 $template = new Template("test.tmpl");
-
-CORRECT:
-$template =& new Template("test.tmpl");
 
 If only one parameter is specified, it is taken as the template file name. In
 this case the template is created with the default options. To specify other
 options, you pass one (associative) array, containing option=>value pairs:
 
-$template =& new Template(array("option1"=>"value", "option2"=>"value"));
+$template = new Template(array("option1"=>"value", "option2"=>"value"));
 
 Available options are described later in this document (section 1.5).
 
@@ -453,7 +447,7 @@ case_sensitive - setting this option to true causes HTML::Template to treat
 template variable names case-sensitively. The following example would only set
 one parameter without the "case_sensitive" option:
 
-  $template =& new Template('filename', 'template.tmpl', case_sensitive', 1);
+  $template = new Template('filename', 'template.tmpl', case_sensitive', 1);
   $template->Addparam(
     'FieldA', 'foo',
     'fIELDa', 'bar',
@@ -476,7 +470,7 @@ The script:
 <?
 require_once "template.php";
 $options = array('filename'=>'template.tmpl', 'imark'=>'[[', 'emark'=>']]');
-$template =& new Template(&$options);
+$template = new Template(&$options);
 $template->AddParam('title'=>'Hello world!');
 $template->EchoOutput();
 ?>
@@ -624,7 +618,7 @@ tried before path is consulted.
 
 Example:
 
-   $template =& new Template('filename', 'file.tmpl',
+   $template = new Template('filename', 'file.tmpl',
                              'path', array('/path/to/templates',
                                            '/alternate/path'));
 
@@ -684,7 +678,7 @@ Returns the path to the compiled template. Example:
 
 <?php
 require_once("template.php");
-$t =& new Template("bench3.tpl");
+$t = new Template("bench3.tpl");
 if ($output = $t->SaveCompiled(".")) {
     echo ("$output saved");
 }
@@ -699,7 +693,7 @@ Example:
 
 <?php
 require_once("template.php");
-$template =& LoadCompiledTemplate("mytemplate.tplc");
+$template = LoadCompiledTemplate("mytemplate.tplc");
 $template->AddParam("title", "Hellow world!");
 $template->EchoOutput();
 ?>
