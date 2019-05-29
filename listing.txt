@@ -1,0 +1,371 @@
+.:
+total 136
+drwxr-xr-x. 2 wingedgeek wingedgeek    24 Nov 14  2002 docs
+drwxrwxr-x. 8 wingedgeek wingedgeek   166 May 29 11:08 .git
+-rw-r--r--. 1 wingedgeek wingedgeek  3009 Nov  6  2002 index.html
+-rw-r--r--. 1 wingedgeek wingedgeek 18010 Aug  4  2002 LICENSE
+-rw-rw-r--. 1 wingedgeek wingedgeek     0 May 29 11:09 listing.txt
+-rw-r--r--. 1 wingedgeek wingedgeek 13347 Aug  3  2002 logo.gif
+-rw-r--r--. 1 wingedgeek wingedgeek   775 Aug  4  2002 phphtml.css
+-rw-r--r--. 1 wingedgeek wingedgeek 30668 Nov 14  2002 README
+drwxr-xr-x. 2 wingedgeek wingedgeek  4096 Nov 14  2002 samples
+-rw-r--r--. 1 wingedgeek wingedgeek 55661 Nov 14  2002 template.php
+
+./docs:
+total 16
+-rw-r--r--. 1 wingedgeek wingedgeek 15630 Nov  9  2002 index.html
+
+./.git:
+total 24
+drwxrwxr-x.  2 wingedgeek wingedgeek    6 May 29 11:04 branches
+-rw-rw-r--.  1 wingedgeek wingedgeek   80 May 29 11:07 COMMIT_EDITMSG
+-rw-rw-r--.  1 wingedgeek wingedgeek  208 May 29 11:08 config
+-rw-rw-r--.  1 wingedgeek wingedgeek   73 May 29 11:04 description
+-rw-rw-r--.  1 wingedgeek wingedgeek   23 May 29 11:04 HEAD
+drwxrwxr-x.  2 wingedgeek wingedgeek  242 May 29 11:04 hooks
+-rw-rw-r--.  1 wingedgeek wingedgeek 4000 May 29 11:05 index
+drwxrwxr-x.  2 wingedgeek wingedgeek   21 May 29 11:04 info
+drwxrwxr-x.  3 wingedgeek wingedgeek   30 May 29 11:06 logs
+drwxrwxr-x. 52 wingedgeek wingedgeek 4096 May 29 11:06 objects
+drwxrwxr-x.  4 wingedgeek wingedgeek   31 May 29 11:04 refs
+
+./.git/branches:
+total 0
+
+./.git/hooks:
+total 40
+-rwxrwxr-x. 1 wingedgeek wingedgeek  452 May 29 11:04 applypatch-msg.sample
+-rwxrwxr-x. 1 wingedgeek wingedgeek  896 May 29 11:04 commit-msg.sample
+-rwxrwxr-x. 1 wingedgeek wingedgeek  189 May 29 11:04 post-update.sample
+-rwxrwxr-x. 1 wingedgeek wingedgeek  398 May 29 11:04 pre-applypatch.sample
+-rwxrwxr-x. 1 wingedgeek wingedgeek 1704 May 29 11:04 pre-commit.sample
+-rwxrwxr-x. 1 wingedgeek wingedgeek 1239 May 29 11:04 prepare-commit-msg.sample
+-rw-rw-r--. 1 wingedgeek wingedgeek 1348 May 29 11:04 pre-push.sample
+-rwxrwxr-x. 1 wingedgeek wingedgeek 4951 May 29 11:04 pre-rebase.sample
+-rwxrwxr-x. 1 wingedgeek wingedgeek 3611 May 29 11:04 update.sample
+
+./.git/info:
+total 4
+-rw-rw-r--. 1 wingedgeek wingedgeek 240 May 29 11:04 exclude
+
+./.git/logs:
+total 4
+-rw-rw-r--. 1 wingedgeek wingedgeek 725 May 29 11:07 HEAD
+drwxrwxr-x. 3 wingedgeek wingedgeek  19 May 29 11:06 refs
+
+./.git/logs/refs:
+total 0
+drwxrwxr-x. 2 wingedgeek wingedgeek 20 May 29 11:06 heads
+
+./.git/logs/refs/heads:
+total 4
+-rw-rw-r--. 1 wingedgeek wingedgeek 725 May 29 11:07 master
+
+./.git/objects:
+total 0
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 0b
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:06 16
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 20
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 28
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 2d
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 36
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:06 37
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 46
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 4b
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 4c
+drwxrwxr-x. 2 wingedgeek wingedgeek 98 May 29 11:05 4d
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 57
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 5e
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:06 67
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 69
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 6b
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:06 6f
+drwxrwxr-x. 2 wingedgeek wingedgeek 98 May 29 11:07 73
+drwxrwxr-x. 2 wingedgeek wingedgeek 98 May 29 11:05 85
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 87
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 89
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 8a
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 8e
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 90
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 93
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 9a
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 9e
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 a3
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 a5
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 b8
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 bb
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 bf
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 c4
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 c5
+drwxrwxr-x. 2 wingedgeek wingedgeek 98 May 29 11:05 c9
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 d0
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 d8
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 d9
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 e0
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 e2
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 e6
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 e8
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 ec
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 f0
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:06 f2
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 f7
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 f8
+drwxrwxr-x. 2 wingedgeek wingedgeek 52 May 29 11:05 f9
+drwxrwxr-x. 2 wingedgeek wingedgeek  6 May 29 11:04 info
+drwxrwxr-x. 2 wingedgeek wingedgeek  6 May 29 11:04 pack
+
+./.git/objects/0b:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 298 May 29 11:05 77529762ad2e23ff86c1e600fe74e07e1caf39
+
+./.git/objects/16:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 195 May 29 11:06 d7c090bebafca9d9635f23abc92dfc080bde78
+
+./.git/objects/20:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 330 May 29 11:05 e1cdf78463e4b3e9552f078ab555d70960f3a7
+
+./.git/objects/28:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 797 May 29 11:05 cf95f06bf0cad160e7e8766b67aaa16a30136f
+
+./.git/objects/2d:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 294 May 29 11:05 4c2cbf57a47e317de91f3eeda210417a98a3a3
+
+./.git/objects/36:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 221 May 29 11:05 0d928481ea87dce3302996a5fd22fed6e4d638
+
+./.git/objects/37:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 191 May 29 11:06 b04952f126a72d1cd2d1c5418d16e094fe0e27
+
+./.git/objects/46:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 235 May 29 11:05 26fdb95dc0be51928da3ff1442e25e2c819d61
+
+./.git/objects/4b:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 729 May 29 11:05 e24e0ce31af64849cddca3fd9a78e4f76f0e41
+
+./.git/objects/4c:
+total 12
+-r--r--r--. 1 wingedgeek wingedgeek 11261 May 29 11:05 a4364048559e7a670dea8f88326daede8a08c9
+
+./.git/objects/4d:
+total 8
+-r--r--r--. 1 wingedgeek wingedgeek 191 May 29 11:05 0ed957afb4c72f7b5b599d869f58ca8f16ec2b
+-r--r--r--. 1 wingedgeek wingedgeek 262 May 29 11:05 b5162fc52589c6131f6198472a9d08d6e02495
+
+./.git/objects/57:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 284 May 29 11:05 b6527c75bd6ce93ebf4261ac7768bc9f33c283
+
+./.git/objects/5e:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 255 May 29 11:05 0416a37383363df9bd82b1ff7ffae08d7d4c38
+
+./.git/objects/67:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 279 May 29 11:06 9852fd7d71232c6598e92b75803df0f186db9b
+
+./.git/objects/69:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 31 May 29 11:05 1287b6e353f56675fffd37fe96ead589956f33
+
+./.git/objects/6b:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 199 May 29 11:05 4664c3ff13f32541f1fd8714369feca8f289a5
+
+./.git/objects/6f:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 1062 May 29 11:06 84264c0aacebf49ee1c8867f267fb691770fe1
+
+./.git/objects/73:
+total 8
+-r--r--r--. 1 wingedgeek wingedgeek 193 May 29 11:07 29210d30a5be80403c518d0991de3125f9f33d
+-r--r--r--. 1 wingedgeek wingedgeek 385 May 29 11:05 9224a4c790593e2eeeeefe10ddea217f5a74a2
+
+./.git/objects/85:
+total 8
+-r--r--r--. 1 wingedgeek wingedgeek 1349 May 29 11:05 118eae72b918dcb396b98827535d8e8eb7614a
+-r--r--r--. 1 wingedgeek wingedgeek  285 May 29 11:05 cb2f59058a02900f52056fc54998615cf1a534
+
+./.git/objects/87:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 456 May 29 11:05 ebab18c7cee4e4426c66679d5de7b4de924229
+
+./.git/objects/89:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 809 May 29 11:05 1eb4e57dd8bda752f476ac0fe58e779c995712
+
+./.git/objects/8a:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 246 May 29 11:05 1a0410acd35770ff10ddb123aec7e7eb5cc4f3
+
+./.git/objects/8e:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 260 May 29 11:05 0c009c59debee1af4f4d8b59eab1766ff53afc
+
+./.git/objects/90:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 454 May 29 11:05 cb85099d6128130e7c075c18724082bace8a17
+
+./.git/objects/93:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 503 May 29 11:05 296660d10afd14aaab083e5baaf1cf2e33705a
+
+./.git/objects/9a:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 230 May 29 11:05 7baabfe758aec058cc720411a5d528f8c77c30
+
+./.git/objects/9e:
+total 16
+-r--r--r--. 1 wingedgeek wingedgeek 13347 May 29 11:05 6d6d54c7158d11af80c9931f2b703641aceb9c
+
+./.git/objects/a3:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 405 May 29 11:05 8fd5c5e66f58e769d2874a6d2fdc3e7fc874fb
+
+./.git/objects/a5:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 292 May 29 11:05 7aca205b99916e33848016b67b556c9b301460
+
+./.git/objects/b8:
+total 8
+-r--r--r--. 1 wingedgeek wingedgeek 7740 May 29 11:05 306825ebf3ba08cb70cf7a748b93c0090fa281
+
+./.git/objects/bb:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 545 May 29 11:05 74bda2ece29752cc9f33894167427d65c8c333
+
+./.git/objects/bf:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 317 May 29 11:05 8a78f588282e06329a46feee6a193833c9678d
+
+./.git/objects/c4:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 388 May 29 11:05 c3a2d2a273e46c3196fb844a2b79c4af929429
+
+./.git/objects/c5:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 244 May 29 11:05 4d993f6a7923808f41e47933d021407587ba5e
+
+./.git/objects/c9:
+total 8
+-r--r--r--. 1 wingedgeek wingedgeek 470 May 29 11:05 c0dca2a33ff8e11014642fae2c9c696e9a4e84
+-r--r--r--. 1 wingedgeek wingedgeek 356 May 29 11:05 cc343046cb2d3cb26bfafd798bd20185b9fe72
+
+./.git/objects/d0:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 319 May 29 11:05 02d080a6d6cbb98bf42e8ed14556de69ce064d
+
+./.git/objects/d8:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 347 May 29 11:05 74456f12c99502dd3d7c0cfe384e75222eb294
+
+./.git/objects/d9:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 310 May 29 11:05 bdc0023e3988f827f80dd5e0c6af6d34d1a03b
+
+./.git/objects/e0:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 414 May 29 11:05 5e74e8f0070681cda0bea1b17671dc08018aa8
+
+./.git/objects/e2:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 413 May 29 11:05 1d4407de86f403dc0c304bae86a0034b4e8636
+
+./.git/objects/e6:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 267 May 29 11:05 7ee9bcc9778e603a9d9511db0f9d4d68a7204f
+
+./.git/objects/e8:
+total 8
+-r--r--r--. 1 wingedgeek wingedgeek 5434 May 29 11:05 419829aaa45a4ddce7c247d8583a9dc36ad972
+
+./.git/objects/ec:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 360 May 29 11:05 be20ae878649f36c69323b167a0920368582f9
+
+./.git/objects/f0:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 351 May 29 11:05 1a7b7fee37c5fab659e4b508acff0a66bc59c3
+
+./.git/objects/f2:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 55 May 29 11:06 42e2c475b88328d57dbbdb92a82818dafbe24f
+
+./.git/objects/f7:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 158 May 29 11:05 99a77c3454022377e01f665363be62feffe348
+
+./.git/objects/f8:
+total 12
+-r--r--r--. 1 wingedgeek wingedgeek 11894 May 29 11:05 6e64c56eab9bb08f52ab2e0c3056c2d9ce612b
+
+./.git/objects/f9:
+total 4
+-r--r--r--. 1 wingedgeek wingedgeek 375 May 29 11:05 31a6ebd1b7140c9428a1a14183d77c773583e7
+
+./.git/objects/info:
+total 0
+
+./.git/objects/pack:
+total 0
+
+./.git/refs:
+total 0
+drwxrwxr-x. 2 wingedgeek wingedgeek 20 May 29 11:07 heads
+drwxrwxr-x. 2 wingedgeek wingedgeek  6 May 29 11:04 tags
+
+./.git/refs/heads:
+total 4
+-rw-rw-r--. 1 wingedgeek wingedgeek 41 May 29 11:07 master
+
+./.git/refs/tags:
+total 0
+
+./samples:
+total 156
+-rw-r--r--. 1 wingedgeek wingedgeek   15 Aug  4  2002 footer.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek  229 Aug  4  2002 header.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek 2310 Nov  9  2002 index.html
+-rw-r--r--. 1 wingedgeek wingedgeek  211 Aug  4  2002 sample1.php
+-rw-r--r--. 1 wingedgeek wingedgeek  277 Aug  4  2002 sample1.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek  339 Aug  4  2002 sample1.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek  544 Aug  4  2002 sample1.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek  364 Aug  4  2002 sample2.php
+-rw-r--r--. 1 wingedgeek wingedgeek  462 Aug  4  2002 sample2.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek  414 Aug  4  2002 sample2.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek  665 Aug  4  2002 sample2.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek  430 Aug  4  2002 sample3.php
+-rw-r--r--. 1 wingedgeek wingedgeek  534 Aug  4  2002 sample3.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek  474 Aug  4  2002 sample3.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek  789 Aug  4  2002 sample3.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek  981 Aug  4  2002 sample4.php
+-rw-r--r--. 1 wingedgeek wingedgeek 1121 Aug  4  2002 sample4.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek  658 Aug  4  2002 sample4.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek 1115 Aug  4  2002 sample4.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek  453 Aug  4  2002 sample5.php
+-rw-r--r--. 1 wingedgeek wingedgeek  563 Aug  4  2002 sample5.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek 1235 Aug  4  2002 sample5.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek 1864 Aug  4  2002 sample5.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek  934 Aug  4  2002 sample6.php
+-rw-r--r--. 1 wingedgeek wingedgeek 1300 Aug  4  2002 sample6.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek 1418 Aug  4  2002 sample6.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek 1943 Aug  4  2002 sample6.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek  343 Nov  6  2002 sample7.php
+-rw-r--r--. 1 wingedgeek wingedgeek  487 Aug  4  2002 sample7.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek  389 Aug  4  2002 sample7.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek  680 Aug  4  2002 sample7.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek  810 Aug  4  2002 sample8.php
+-rw-r--r--. 1 wingedgeek wingedgeek 1140 Aug  4  2002 sample8.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek  580 Aug  4  2002 sample8.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek  999 Aug  4  2002 sample8.tmpl.html
+-rw-r--r--. 1 wingedgeek wingedgeek 1075 Nov  9  2002 sample9.php
+-rw-r--r--. 1 wingedgeek wingedgeek 1517 Nov  9  2002 sample9.php.html
+-rw-r--r--. 1 wingedgeek wingedgeek 1367 Nov  9  2002 sample9.tmpl
+-rw-r--r--. 1 wingedgeek wingedgeek 2240 Nov  9  2002 sample9.tmpl.html
