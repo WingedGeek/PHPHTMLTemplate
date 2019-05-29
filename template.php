@@ -5,9 +5,14 @@
 # http://phphtmltemplate.sourceforge.net/                                      #
 ################################################################################
 # A template system for PHP based on HTML::Template Perl Module                #
-# Version 0.3.3                                                                #
-# 14-NOV-2002                                                                  #
+# Version 0.3.4                                                                #
+# 03-Jun-2019                                                                  #
 # See file README for details                                                  #
+################################################################################
+# Current maintainer: Chris Harshman, wingedgeek@puntumarchimedis.com          #
+# Version 0.3.3 (14-Nov-2002) and predecessor versions by Juan R. Pozo.        #
+################################################################################
+
 ################################################################################
 # Author: Juan R. Pozo, jrpozo@conclase.net                                    #
 # License: GNU GPL (included in file "LICENSE")                                #
@@ -55,7 +60,7 @@ class Template {
     var $totalPass    = array(); // Stack for loops: total passes of current loop
     var $curPass      = array(); // Stack for loops: current pass of current loop
 
-    var $version = "0.3.3";
+    var $version = "0.3.4";
 
     // The class constructor
     function Template($options)
@@ -360,12 +365,12 @@ class Template {
                     // END DEBUG
                     if (in_array($name, array('__pass__', '__passtotal__', '__counter__'))) {
                         if (count($inLoop)) {
-                            $this->nodes[] =& new Node("ContextVAR", $name);
+                            $this->nodes[] = new Node("ContextVAR", $name);
                         } else {
                             trigger_error("Template::Parse() : Found context VAR tag outside of LOOP, at ".$this->options['filename']." : line ".$lineNumber, E_USER_ERROR);
                         }
                     } else {
-                        $this->nodes[] =& new Node("VAR", $name, $escape, $global, $default);
+                        $this->nodes[] = new Node("VAR", $name, $escape, $global, $default);
                         $this->names[$name] = 1;
                     }
                     // BEGIN DEBUG
@@ -382,7 +387,7 @@ class Template {
                         echo("Adding LOOP node<br>\n");
                     }
                     // END DEBUG
-                    $this->nodes[] =& new Node("LOOP", $name, NULL, $global);
+                    $this->nodes[] = new Node("LOOP", $name, NULL, $global);
                     $inLoop[] = count($this->nodes)-1;
                     $curType[] = "LOOP";
                     $this->names[$name] = 1;
@@ -423,12 +428,12 @@ class Template {
                     // END DEBUG
                     if (in_array($name, array('__first__', '__odd__', '__inner__', '__last__'))) {
                         if (count($inLoop)) {
-                            $this->nodes[] =& new Node("ContextIF", $name);
+                            $this->nodes[] = new Node("ContextIF", $name);
                         } else {
                             trigger_error("Template::Parse() : Found context IF/UNLESS tag outside of LOOP, at ".$this->options['filename']." : line ".$lineNumber, E_USER_ERROR);
                         }
                     } else {
-                        $this->nodes[] =& new Node("IF", $name, NULL, $global);
+                        $this->nodes[] = new Node("IF", $name, NULL, $global);
                         $this->names[$name] = 1;
                     }
                     $inIf[] = count($this->nodes)-1;
@@ -469,9 +474,9 @@ class Template {
                     }
                     // END DEBUG
                     if (in_array($name, array('__first__', '__odd__', '__inner__', '__last__'))) {
-                        $this->nodes[] =& new Node("ContextUNLESS", $name);
+                        $this->nodes[] = new Node("ContextUNLESS", $name);
                     } else {
-                        $this->nodes[] =& new Node("UNLESS", $name, NULL, $global);
+                        $this->nodes[] = new Node("UNLESS", $name, NULL, $global);
                         $this->names[$name] = 1;
                     }
                     $inUnless[] = count($this->nodes)-1;
@@ -541,7 +546,7 @@ class Template {
                             // END DEBUG
                             $newOptions = $this->options;
                             $newOptions['filename'] = $name;
-                            $newOptions['_parent'] =& $this;
+                            $newOptions['_parent'] = $this;
                             new Template($newOptions);
                             // BEGIN DEBUG
                             if ($this->options['debug']) {
@@ -569,7 +574,7 @@ class Template {
                 if ($this->options['strict'] && preg_match("/".$delim."\/?[Tt][Mm][Pp][Ll]_/", $chunks[$i])) {
                     trigger_error("Template::Parse() : Syntax error in &lt;TMPL_*&gt; tag at " . $this->options['filename'] . " : line " . $lineNumber, E_USER_ERROR);
                 }
-                $this->nodes[] =& new Node("MARKUP", $chunks[$i]);
+                $this->nodes[] = new Node("MARKUP", $chunks[$i]);
                 // BEGIN DEBUG
                 if ($this->options['debug']) {
                     $this->ListNodes();

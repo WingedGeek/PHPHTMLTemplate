@@ -3,8 +3,13 @@
 # http://phphtmltemplate.sourceforge.net/                                      #
 ################################################################################
 # A template system for PHP based on the HTML::Template Perl Module            #
-# Version 0.3.3                                                                #
-# 14-NOV-2002                                                                  #
+# Version 0.3.4                                                                #
+# 03-Jun-2019                                                                  #
+################################################################################
+# Current maintainer: Chris Harshman, wingedgeek@puntumarchimedis.com          #
+# Version 0.3.3 (14-Nov-2002) and predecessor versions by Juan R. Pozo.        #
+################################################################################
+
 ################################################################################
 # Author: Juan R. Pozo, jrpozo@conclase.net                                    #
 # License: GNU GPL (included in file "LICENSE")                                #
@@ -790,6 +795,11 @@ version of the class file, and attaching a sample script and a sample template
 demonstrating the problem. Thank you.
 
 4. Changes
+
+Version 0.3.4 - 03/May/2019 - Modified to comply with changes to PHP, specifically:
+"The result of the new statement can no longer be assigned to a variable by reference."
+https://www.php.net/manual/en/migration70.incompatible.php
+Removed the reference operand where new objects instantiated.
 
 Version 0.3.3 - 14/nov/2002 - More bugfixes:
 - Context LOOP variables in UNLESS scopes were always being converted to
