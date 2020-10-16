@@ -5,8 +5,8 @@
 # http://phphtmltemplate.sourceforge.net/                                      #
 ################################################################################
 # A template system for PHP based on HTML::Template Perl Module                #
-# Version 0.3.6                                                                #
-# 16-Sep-2020                                                                  #
+# Version 0.3.7                                                                #  (Also update $version declaration below)
+# 16-Oct-2020                                                                  #
 # See file README for details                                                  #
 ################################################################################
 # Current maintainer: Chris Harshman, wingedgeek@puntumarchimedis.com          #
@@ -60,7 +60,7 @@ class Template {
     var $totalPass    = array(); // Stack for loops: total passes of current loop
     var $curPass      = array(); // Stack for loops: current pass of current loop
 
-    var $version = "0.3.5";
+    var $version = "0.3.7";
 
     // The class constructor
     function Template($options)
@@ -88,7 +88,7 @@ class Template {
             echo("<h1>Template::New()</h1>\n");
             echo("<p>Debug mode on.</p>");
             echo("<p>Thanks for using PHP-HTML::Template.</p>");
-            echo("<p>If you find any bugs, please report them to <a href='mailto:jrpozo@conclase.net'>jrpozo@conclase.net</a> along with an example and the version number of this library.</p>");
+            echo("<p>If you find any bugs, please report them to <a href='mailto:wingedgeek@punctumarchimedis.com'>wingedgeek@punctumarchimedis.com</a> along with an example and the version number of this library.</p>");
             echo("<p>Current version number is " . $this->version . "</p>");
         }
         // END DEBUG
@@ -1197,6 +1197,10 @@ class Template {
             }
         }
         return NULL; // should never arrive here anyway...
+    }
+
+    function ParamExists($arg) {
+        return isset($this->names[$arg]);
     }
 }
 
