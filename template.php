@@ -63,8 +63,8 @@ class Template {
     var $version = "0.3.7";
 
     // The class constructor
-    function Template($options)
-    {
+    //function Template($options)
+    function __construct($options) {
         // if the argument is a scalar, it is taken as the template file name
         // otherwise we take it as an associative array of option=>value pairs
         if (is_scalar($options)) {
@@ -1214,7 +1214,8 @@ class Node
     var $jumpTo  = NULL;
     var $else    = NULL;
 
-    function Node($type, $name, $global=NULL, $escape=NULL, $default=NULL)
+    // function Node($type, $name, $global=NULL, $escape=NULL, $default=NULL)
+    function __construct($type, $name, $global=NULL, $escape=NULL, $default=NULL)
     {
         $this->type    = $type;
         $this->name    = $name;
